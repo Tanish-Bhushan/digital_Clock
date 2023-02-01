@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Orbitron', sans-serif;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    background: #131419;
+}
+
+.clock {
+    background: #131419;
+    height: 120px;
+    width: 600px;
+    line-height: 120px;
+    display: flex;
+    justify-content: center;
+    padding: 0 5px;
+    box-shadow: -3px -3px 7px rgba(255, 255, 255, 0.05),
+        3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.clock .display {
+    font-size: 60px;
+    color: cyan;
+    letter-spacing: 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.purple-mode {
+    background: purple;
+}
+
+.purple-mode .display {
+    font-size: 60px;
+    color: #380460;
+    letter-spacing: 5px;
+}
+
+.purple-mode .clock {
+    background-color: #A45EE5;
+    box-shadow: -3px -3px 7px rgba(238, 227, 234, 0.55),
+        3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.button {
+    background: transparent;
+    size: 10px;
+    cursor: pointer;
+}
+
+.red-mode {
+    background: rgb(252, 58, 58);
+}
+
+.red-mode .display {
+    font-size: 60px;
+    color: #f7f7f7;
+    letter-spacing: 5px;
+}
+
+.red-mode .clock {
+    background-color: #eb3737;
+    box-shadow: -3px -3px 7px rgba(238, 227, 234, 0.55),
+        3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.blue-mode {
+    background: rgb(43, 152, 241);
+}
+
+.blue-mode .display {
+    font-size: 60px;
+    color: #f7f7f7;
+    letter-spacing: 5px;
+}
+
+.blue-mode .clock {
+    background-color: #476ce4;
+    box-shadow: -3px -3px 7px rgba(238, 227, 234, 0.55),
+        3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.yellow-mode {
+    background: rgb(210, 223, 29);
+}
+
+.yellow-mode .display {
+    font-size: 60px;
+    color: black;
+    letter-spacing: 5px;
+}
+
+.yellow-mode .clock {
+    background-color: #cae820;
+    box-shadow: -3px -3px 7px rgba(238, 227, 234, 0.55),
+        3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.orange-mode {
+    background: rgb(220, 123, 38);
+}
+
+.orange-mode .display {
+    font-size: 60px;
+    color: whitesmoke;
+    letter-spacing: 5px;
+}
+
+.orange-mode .clock {
+    background-color: #f1a11e;
+    box-shadow: -3px -3px 7px rgba(238, 227, 234, 0.55),
+        3px 3px 5px rgba(0, 0, 0, 0.5);
+}
